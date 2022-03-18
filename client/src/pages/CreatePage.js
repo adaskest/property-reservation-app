@@ -1,0 +1,1 @@
+import React from 'react';import CreateAd from "../components/CreateAd";const CreatePage = () => {    return (        <div>            <CreateAd/>        </div>    );};export default CreatePage;
