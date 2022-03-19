@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b331727-2ad1-4f78-9442-2f6e302a4f37" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Ad.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/CreateAd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ReservationDatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SearchDatePicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SingleAd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/mainContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/CreatePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/SingleAdPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/plugins/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/controllers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/middles/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routers/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/schemas/adSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/schemas/userSchema.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/SingleAd.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/SingleAd.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1647436632050</updated>
       <workItem from="1647436633125" duration="39492000" />
-      <workItem from="1647542319341" duration="35057000" />
+      <workItem from="1647542319341" duration="36114000" />
+      <workItem from="1647673882332" duration="64000" />
+      <workItem from="1647686829798" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="Add front-end and back-end folders">
       <created>1647437082704</created>
@@ -105,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647437082704</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add user registration, login. Create ad, post it, save it in mongoDB. On single ad make reservation if it is available on those days. Add filters by city, price and available days.">
+      <created>1647633813459</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647633813459</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +92,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add front-end and back-end folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add front-end and back-end folders" />
+    <MESSAGE value="Add user registration, login. Create ad, post it, save it in mongoDB. On single ad make reservation if it is available on those days. Add filters by city, price and available days." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user registration, login. Create ad, post it, save it in mongoDB. On single ad make reservation if it is available on those days. Add filters by city, price and available days." />
   </component>
 </project>
